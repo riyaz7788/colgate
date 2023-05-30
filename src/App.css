@@ -1,0 +1,53 @@
+body{
+background-color: black;
+/* background-image: url("/public/images/colgatebackground.png");
+background-size: cover; */
+}
+.landing-page{
+  background-image: url('/public/images/colgatebackground.png');
+  z-index: 1;
+}
+.colg {
+  width: 105%;
+  /* height: auto; */
+  position: absolute;
+  top: 8%;
+  height: 86%;
+}
+.banner{
+  position: absolute;
+  width: 105%;
+}
+.experience{
+  /* position: absolute;
+  width: 304px;
+  height: 82px;
+  left: 34px;
+  top: 579px;
+  background: #028080;
+  border-radius: 42.5px 0px 42.5px 42.5px; */
+  position: absolute;
+  bottom: 7px;
+  right: 9%;
+  background: #028080;
+  border-radius: 42.5px 0px 42.5px 42.5px;
+  width: 304px;
+  height: 82px;
+  font-family: 'Colgate Ready BETA5';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  /* padding: 4px; */
+}
+.blackbackground{
+  background: #000000;
+border: 2px solid #FFFFFF;
+}
+@media screen and (min-width: 415px) {
+  #mobilebiewonly {
+    display: none;
+  }
+}
